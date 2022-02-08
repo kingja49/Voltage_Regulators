@@ -24,6 +24,8 @@ Select the best value that fits the transient response need.
     
 ## Adustable Voltage Regulator
       
+This adjustable voltage regulator can produce an output voltage ranging from 1.2 Volts at its lowest and 37 Volts at its highest.  C3, the first capacitor near the input, acts as an input bypass capacitor that helps filter the unwanted noise from the input voltage signal before it enters the regulator.  C5, the capacitor near the output, is used to improve the transient response of the output voltage and improve the circuit's speed at which it can output the desired voltage.  The main feature of an adjustable voltage regulator is being able to adjust the voltage, something that is possible within this circuit by changing the value of the adjustable resistor, R2.  One feature of this circuit is the protective diodes, D1 and D2.  D1 protects the circuit from short-circuiting from the input and D2 protects against short-circuiting when the capacitors discharge.
+
 
 Parts List:
     
